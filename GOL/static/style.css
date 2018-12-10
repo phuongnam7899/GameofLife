@@ -1,0 +1,33 @@
+* {
+    font-size: 1.2rem;
+    font-family: 'Unlock', cursive;
+    background-color: antiquewhite;
+}
+html,body{
+    height:100%;
+}
+.center_container {
+    display :flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_group{
+    margin: 12px;
+}
+.form_group > label {
+    display: inline-block;
+    width: 180px;
+}
+.button{
+    float: right;
+    margin-right:12px;
+    background-color: rgb(1, 61, 61);
+    color: aliceblue;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+}
+.border{
+    border-color: blue;
+    border-style: double;
+}
